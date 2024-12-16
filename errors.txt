@@ -1,0 +1,25 @@
+C:\Users\rem\Desktop\www2\.venv\Scripts\python.exe C:\Users\rem\Desktop\www2\16.py
+[INFO] tello.py - 129 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 438 - Send command: 'command'
+[INFO] tello.py - 462 - Response command: 'ok'
+Nivel de batería: 66%
+[INFO] tello.py - 438 - Send command: 'streamon'
+[INFO] tello.py - 462 - Response streamon: 'ok'
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1734367937.854171   10768 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1734367937.874902   10768 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[INFO] tello.py - 438 - Send command: 'takeoff'
+[INFO] tello.py - 462 - Response takeoff: 'ok'
+[INFO] tello.py - 438 - Send command: 'land'
+[INFO] tello.py - 462 - Response land: 'error'
+[INFO] tello.py - 438 - Send command: 'land'
+[INFO] tello.py - 462 - Response land: 'error'
+[INFO] tello.py - 438 - Send command: 'land'
+[INFO] tello.py - 462 - Response land: 'error'
+[INFO] tello.py - 471 - Send command (no response expected): 'emergency'
+Error al aterrizar: Command 'land' was unsuccessful for 4 tries. Latest response:	'error'
+[INFO] tello.py - 438 - Send command: 'streamoff'
+[INFO] tello.py - 462 - Response streamoff: 'ok'
+
+Process finished with exit code 0
